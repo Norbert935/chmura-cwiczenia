@@ -1,12 +1,124 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="utf-8">
-  <title>Moja pierwsza strona w chmurze</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norbert - Chmura obliczeniowa</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            color: #263238;
+            line-height: 1.7;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            color: #1565c0;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #e3eaf0;
+            padding-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 12px;
+        }
+
+        a {
+            color: #1565c0;
+        }
+
+        footer {
+            margin-top: 30px;
+            border-top: 1px solid #ddd;
+            padding-top: 15px;
+            text-align: center;
+        }
+    </style>
 </head>
-<body style="font-family:sans-serif; max-width:640px; margin:40px auto">
-  <h1>Dzień dobry z chmury ☁️</h1>
-  <p>Tę stronę opublikował(a): Norbert, grupa 1.</p>
-  <p>Nie mam własnego serwera — stronę udostępnia GitHub.</p>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1>Norbert - Grupa 1</h1>
+            <p>Wprowadzenie do przetwarzania w chmurze</p>
+            <p>Moja strona-wizytówka utworzona
+               w ramach ćwiczeń z technologii chmurowych.</p>
+        </header>
+
+        <section>
+            <h2>Pięć cech chmury według NIST</h2>
+
+            <ol>
+                <li>
+                    <strong>Samoobsługa na żądanie</strong>
+                    - użytkownik może samodzielnie uruchamiać
+                    potrzebne zasoby bez kontaktu z administratorem.
+                </li>
+
+                <li>
+                    <strong>Szeroki dostęp sieciowy</strong>
+                    - usługi chmurowe są dostępne przez Internet
+                    z komputerów, telefonów i innych urządzeń.
+                </li>
+
+                <li>
+                    <strong>Wspólna pula zasobów</strong>
+                    - dostawca wykorzystuje wspólną infrastrukturę
+                    do obsługi wielu użytkowników.
+                </li>
+
+                <li>
+                    <strong>Szybka elastyczność</strong>
+                    - ilość zasobów można szybko zwiększać
+                    lub zmniejszać w zależności od zapotrzebowania.
+                </li>
+
+                <li>
+                    <strong>Usługa mierzona</strong>
+                    - wykorzystanie pamięci, procesora i innych
+                    zasobów jest monitorowane i rozliczane.
+                </li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Najciekawszy model usług chmurowych</h2>
+
+            <p>
+                Najbardziej zainteresował mnie model IaaS,
+                ponieważ pozwala samodzielnie konfigurować
+                serwery, systemy operacyjne i zabezpieczenia,
+                bez konieczności posiadania własnej infrastruktury.
+            </p>
+        </section>
+
+        <footer>
+            <h2>Moje repozytorium GitHub</h2>
+
+            <p>
+                <a href="https://github.com/Norbert935/chmura-cwiczenia">
+                    Zobacz moje repozytorium z ćwiczeniami
+                </a>
+            </p>
+        </footer>
+
+    </div>
 </body>
 </html>
